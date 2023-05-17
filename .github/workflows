@@ -58,4 +58,3 @@ jobs:
         git commit -m "commit message"
         git push
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      
