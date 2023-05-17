@@ -576,7 +576,7 @@
                 \item Let $A$ be a decision problem over $\Sigma^*_A$ and let $B$ be a decision problem over $\Sigma^*_B$.
                 \item A many-one reduction is a computable function $f \ : \ \Sigma^*_A \to \Sigma^*_B$ such that for all $w \in \Sigma^*_A$, 
                 \[ w \in A \iff f(w) \in B \]
-                \item A computable function $f$ if some TM $M$ on every input $w$ halts with just $f(w)$ on its tape
+                \item A function $f$ is computable if some TM $M$ on every input $w$ halts with just $f(w)$ on its tape
                 \item If such a function exists then $A$ is \textbf{mapping reducible} to $B$, written $A \leq_m B$
                 \item This is a stronger type of reduction than Turing reductions, so it may be harder to find these reductions. 
             \end{itemize}
